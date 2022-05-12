@@ -5,7 +5,7 @@
 import json
 import math
 import requests
-username = Mavoportentous
+
 def check_user(username):
 	url = "https://api.github.com/users/" + username
 	# Note: if you put a / at the end of url, this will not works!
